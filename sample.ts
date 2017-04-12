@@ -1,14 +1,10 @@
-let str: string;
-let num: number;
-let bool: boolean;
+let str = "文字列";
+let num = 1;
+let bool = true;
 
-let func: Function;
-let obj: any;
+let func = () => {
+};
+let obj = {};
 
-str = "文字";
-num = 1;
-bool = true;
-func = () => {};
-obj = {};
+export{str,num,bool,func,obj}
 
-export {}
